@@ -89,18 +89,21 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
 .mapImage img {
     max-width: 100%;
     height: auto;
     display: block;
     object-fit: cover;
 }
-.porqueMonitorar{
+
+.porqueMonitorar {
     padding: 50px 50px 0 50px;
     display: flex;
     flex-direction: column;
 }
-.pqMonitorarTitle{
+
+.pqMonitorarTitle {
     text-align: center;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -108,10 +111,12 @@ nav {
     margin: 20px auto 20px auto;
     max-width: 800px;
 }
-.pqMonitorarDestaque{
+
+.pqMonitorarDestaque {
     color: #008F00;
 }
-.containerMotivos{
+
+.containerMotivos {
     width: 100%;
     margin-bottom: 100px;
     padding: 20px;
@@ -120,7 +125,8 @@ nav {
     justify-content: space-between;
     gap: 20px;
 }
-.motivoBox{
+
+.motivoBox {
     flex: 1;
     max-height: 280px;
     background-color: #FFF;
@@ -131,7 +137,8 @@ nav {
     padding: 5px 20px;
     gap: 35px;
 }
-.imgShieldContainer{
+
+.imgShieldContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,44 +149,56 @@ nav {
     border-radius: 20px;
     padding: 15px;
 }
-.imgShieldContainer img{
+
+.imgShieldContainer img {
     width: 100%;
     height: 100%;
 }
-.motivoTxt{
+
+.motivoTxt {
     flex: 1;
     height: 100%;
     text-align: justify;
 }
-.motivoTxtTitle{
+
+.motivoTxtTitle {
     text-align: center;
     font-weight: bold;
 }
-@media (max-width: 1268px){
-    .containerMotivos{
+
+@media (max-width: 1268px) {
+    .containerMotivos {
         flex-direction: column;
     }
-    .mapImageAndTitle{
+
+    .mapImageAndTitle {
         flex-direction: column;
     }
-    .homeTitle{
+
+    .homeTitle {
         width: 100%;
     }
-    .mapImage{
+
+    .mapImage {
         width: 100%;
     }
+
     .funcionalidade-box {
         width: 100%;
     }
 }
 
-.problema, .solucao, .funcionalidades {
+.problema,
+.solucao,
+.funcionalidades {
     padding: 60px 50px;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.problema h2, .solucao h2, .funcionalidades h2 {
+.problema h2,
+.solucao h2,
+.funcionalidades h2 {
     font-size: 36px;
     color: #000;
     margin-bottom: 20px;
@@ -187,7 +206,9 @@ nav {
     text-align: center;
 }
 
-.problema p, .solucao p, .funcionalidades ul {
+.problema p,
+.solucao p,
+.funcionalidades ul {
     font-size: 18px;
     line-height: 1.6;
     color: #333;
@@ -249,7 +270,9 @@ footer.footer a:hover {
     text-decoration: underline;
 }
 
-.problema h2, .solucao h2, .funcionalidades h2 {
+.problema h2,
+.solucao h2,
+.funcionalidades h2 {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
@@ -258,7 +281,9 @@ footer.footer a:hover {
     max-width: 800px;
 }
 
-.problema p, .solucao p, .funcionalidades ul {
+.problema p,
+.solucao p,
+.funcionalidades ul {
     font-size: 20px;
     line-height: 1.7;
     color: #222;
@@ -288,28 +313,75 @@ footer.footer a {
 footer.footer a:hover {
     text-decoration: underline;
 }
-.demo-map{
+
+.demo-map {
     width: 100%;
     padding: 120px 50px 0 50px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
-.demo-title{
+
+.demo-title {
     max-width: 75%;
     margin: 20px auto 0 auto;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
-.demo-title p{
+
+.demo-title p {
     font-size: 50px;
 }
-.risco-txt-destaque{
+
+.risco-txt-destaque {
     color: red;
 }
-#map{
+
+#map {
     height: 500px;
     width: 75%;
     margin: auto;
+}
+
+.about-us {
+    padding: 120px 50px 0 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.conatiner-about-1 {
+    width: 100%;
+    display: flex;
+}
+.txt-about-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.txt-about-1 h3{
+    font-size: 50px;
+    margin: auto auto 0 auto;
+}
+.txt-about-1 p{
+    font-size: 25px;
+    margin: 15px auto auto auto;
+    text-align: justify;
+}
+.about-destaque{
+    color: #008F00;
+}
+.pic-about-1{
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+.pic-about-1 img{
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 12px;
 }

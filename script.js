@@ -19,6 +19,14 @@ window.addEventListener("scroll", () => {
 
 })
 
+ document.getElementById('botao-navigate-demo').addEventListener('click', () => {
+
+    window.location.href = "/demo-proj";
+
+    console.log('seila')
+
+})
+
 var map = L.map('map').setView([-23.5505, -46.6333], 13);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -35,6 +43,13 @@ var circle = L.circle([-23.5505, -46.6333], {
 var circle2 = L.circle([-23.598198, -46.740933],{
     color: 'orange',
     fillColor: 'orange',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map)
+
+var circle3 = L.circle([-23.588197, -46.740933],{
+    color: 'red',
+    fillColor: 'red',
     fillOpacity: 0.5,
     radius: 500
 }).addTo(map)
